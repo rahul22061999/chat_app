@@ -1,4 +1,6 @@
+
  const chats = [
+
   {
     isGroupChat: false,
     users: [
@@ -105,6 +107,8 @@
       email: "guest@example.com",
     },
   },
+
 ];
 
 module.exports = {chats}
+
