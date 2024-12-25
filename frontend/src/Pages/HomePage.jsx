@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+import {Container} from "@chakra-ui/react"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <Container>
+      <h1>Hi</h1>
+    </Container>
   )
 }
 

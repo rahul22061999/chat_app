@@ -1,9 +1,6 @@
 const express = require('express');
 const { chats } = require('./data/data');
-
-
-
-
+const dotenv = require('dotenv');
 const app = express();
 const cors = require('cors');
 dotenv.config();
@@ -27,6 +24,10 @@ app.get('/api/chat/:id', (req, res) => {
     res.send(singleChat)
 })
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, () => {
+    console.log(`Server is running at http://localhost:${PORT}`);
+  });
 
 
