@@ -1,16 +1,18 @@
-import { Link, Route } from "react-router-dom"
-import HomePage from "./Pages/HomePage"
-import './App.css'
-function App() {
-  
+import React from 'react';
+import { Link, Outlet } from 'react-router-dom'; 
+import './App.css';
+import HomePage from './Pages/HomePage';
+import ChatPage from './Pages/ChatPage'
 
+
+
+function App() {
   return (
-    <>
-      <div >
-      
-      </div>
-    </>
-  )
+    <div className="container">
+        <Outlet/>
+    </div>
+  );
 }
 
-export default App
+
+export default App;

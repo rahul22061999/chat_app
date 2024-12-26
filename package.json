@@ -2,16 +2,47 @@
 
 
   "name": "chat_app",
+
+
   "version": "1.0.0",
+
+
   "description": "",
+
+
   "main": "server.js",
+
+
   "scripts": {
-    "start":"node backend/server.js"
+
+
+    "start": "node backend/server.js"
+
+
   },
+
+
   "author": "",
+
+
   "license": "ISC",
 
+
   "dependencies": {
+
+
+    "colors": "^1.4.0",
+
+
+    "dotenv": "^16.4.7",
+
+
     "mongoose": "^8.9.2"
+
+
   }
+
+
 }
+
+
