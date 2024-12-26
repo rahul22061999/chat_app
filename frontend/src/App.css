@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-.App {
+.container {
     min-height: 100vh;
     display: flex;
-    background-color: green;
-    /* background-image: ('/bg_img.png'); */
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient( black);
+    background-size: cover !important;
+    background-position: center !important;
+    font-family: 'Work Sans', sans-serif;
 }
